@@ -4,3 +4,6 @@
 
 Import-Module MSOnline
 Connect-MsolService
+
+# I think to set PSv5 to default, do this:
+Settings: Extensions: PowerShell (@ext:ms-vscode.powershell) > PowerShell: PowerShell Default Version = Windows PowerShell (x64)
